@@ -1,0 +1,213 @@
+<html>
+<head>
+<style>
+.logo{
+background-color:blue ;
+height:10%;
+width:10%;
+margin-left:45%;
+position:static;
+}
+.topnav{
+background-color:blue;
+height:8%;
+width:100%;
+position:static;
+display:flex;
+justify-content:space-evenly;
+margin:1%;
+}
+.home{
+background-color:blue;
+color:white;
+height:100%;
+width:10%;
+text-align:center;
+line-height:300%;
+}
+.home:hover{
+background-image: linear-gradient(180deg, blue, white, indigo);
+background-size: 200% 200%;
+animation: gradientAnimation 10s linear infinite;
+}
+.contact{
+background-color:blue;
+color:white;
+height:100%;
+width:10%;
+text-align:center;
+line-height:300%;
+}
+.contact:hover{
+background-image: linear-gradient(180deg, blue, white, indigo);
+background-size: 200% 200%;
+animation: gradientAnimation 10s linear infinite;
+}
+.about{
+background-color:blue;
+color:white;
+height:100%;
+width:10%;
+text-align:center;
+line-height:300%;
+}
+.about:hover{
+background-image: linear-gradient(180deg, blue, white, indigo);
+background-size: 200% 200%;
+animation: gradientAnimation 10s linear infinite;
+}
+.help{
+background-color:blue;
+color:white;
+height:100%;
+width:10%;
+text-align:center;
+line-height:300%;
+}
+.help:hover{
+background-image: linear-gradient(180deg, blue, white, indigo);
+background-size: 200% 200%;
+animation: gradientAnimation 10s linear infinite;
+}
+.notice{
+background-color: white;
+height:60%;
+width:100%;
+position:static;
+display:flex;
+justify-content:space-evenly;
+margin:1%;
+text-align:center;
+}
+.box1{
+background-color:red;
+color:white;
+height:100%;
+width:25%;
+}
+.box2{
+background-color:red;
+color:white;
+height:100%;
+width:25%;
+}
+.box2:hover{
+background-image: linear-gradient(180deg, blue, white, indigo);
+background-size: 200% 200%;
+animation: gradientAnimation 10s linear infinite;
+}
+.box3{
+background-color:red;
+color:white;
+height:100%;
+width:25%;
+}
+.QR{
+background-color:black;
+color:white;
+height:10%;
+width:8%;
+position:static;
+margin-left:45%;
+}
+.information{
+background-color:blue;
+height:10%;
+width:100%;
+position:static;
+display:flex;
+margin:1%;
+justify-content:space-evenly;
+}
+.number{
+background-color:white;
+text-align:center;
+line-height:300%;
+width:10%;
+height:100%;
+color:black;
+}
+.gmail{
+background-color:blue;
+text-align:center;
+line-height:300%;
+width:10%;
+height:100%;
+color:white;
+}
+.address{
+background-color:blue;
+text-align:center;
+line-height:300%;
+width:30%;
+height:100%;
+color:white;
+}
+</style>
+</head>
+<body>
+<div class="logo">
+<img src="C:\Users\USER\Desktop\iact-logo.png" style="height: 100%;width: 100%;">
+</div> 
+<div class="topnav">
+<div class="home">
+Home
+</div>
+<div class="contact">
+Contact
+</div>
+<div class="about">
+About
+</div>
+<div class="help">
+Help
+</div>
+</div>
+<div class="notice">
+<div class="box1">
+PHOTO
+<img src="C:\Users\USER\Downloads\PICNIC.jpg" style="height: 100%;width: 100%;">
+</div>
+<div class="box2">
+NOTICE
+<ul>
+   <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfMlLuoWFCVHsCHhudtAGsgmgcOLx_nwQpSdaGV6Fh73AN5qw/viewform?usp=dialog">
+ <h6>Summer Tech Expo</h6></a></li>
+<li> <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9EUU0I-JAXXFwadtvk03bVsNOBLdlaI8ylUGpq-LyMQxPvA/viewform?usp=dialog">
+  <h6>Data Science</h6></a></li>
+<li> <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9EUU0I-JAXXFwadtvk03bVsNOBLdlaI8ylUGpq-LyMQxPvA/viewform?usp=dialog">
+  <h6>Advanced Tally</h6></a></li>
+  <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf9EUU0I-JAXXFwadtvk03bVsNOBLdlaI8ylUGpq-LyMQxPvA/viewform?usp=dialog">
+  <h6>Programming</h6></a></li>
+  <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf9EUU0I-JAXXFwadtvk03bVsNOBLdlaI8ylUGpq-LyMQxPvA/viewform?usp=dialog">
+   <h6>Web Development</h6></a></li>
+ <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf9EUU0I-JAXXFwadtvk03bVsNOBLdlaI8ylUGpq-LyMQxPvA/viewform?usp=dialog">
+  <h6>Robotics</h6></a></li>
+ <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf9EUU0I-JAXXFwadtvk03bVsNOBLdlaI8ylUGpq-LyMQxPvA/viewform?usp=dialog">
+ <h6>Artificial Intelligence</h6></a></li>
+  <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf9EUU0I-JAXXFwadtvk03bVsNOBLdlaI8ylUGpq-LyMQxPvA/viewform?usp=dialog">
+  <h6>OS-CIT</h6></a></li>
+</ul>
+</div>
+<div class=" box3">
+ACHEIVEMENT
+<img src="C:\Users\USER\Downloads\ACHEIVEMENT.jpg" style="height: 100%;width: 100%;">
+</div>
+</div>
+<div class="QR">
+<img src="C:\Users\USER\Downloads\QR.jpg" style="height: 100%;width: 100%;">
+</div>
+</div>
+<div class="information">
+<div class="address">
+c-139 sector-18 rourkela
+</div>
+<div class="gmail">
+www.Iact.com
+</div>
+<div class="number">
+2234434455
+</div>
+</div>
+</body>
+</html>
